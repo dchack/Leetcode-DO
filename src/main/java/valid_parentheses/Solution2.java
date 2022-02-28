@@ -27,7 +27,7 @@ class Solution2 {
                 stack.add(value);
             }
         }
-        return stack.size() == 0;
+        return stack.isEmpty();
     }
 
     private boolean isSymmetry(char c, char t){
